@@ -54,9 +54,10 @@
           </div>
         </div>
         <ul class="nav__links" id="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">Program</a></li>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#program">Program</a></li>
           <li><a href="#trainer">Trainer</a></li>
+          <li><a href="#membership">Membership</a></li>
           <li><a href="#client">Client</a></li>
           <li><button class="btn btn__primary">Contact</button></li>
         </ul>
@@ -83,84 +84,44 @@
     <!--End Header-->
 
     <!--Program-->
-    <!-- <section class="section__container about__container" id="about">
-      <div class="about__header">
-        <h2 class="section__header">
-          ABOUT <span class="about-header-span">US</span>
-        </h2>
-        <p class="section__description">
-          At FitHappens, we strive to create a welcoming community that inspires
-          individuals to embark on their fitness journey and embrace a healthier
-          lifestyle.
-        </p>
-      </div>
-      <div class="about__grid">
-        <div class="about__card">
-          <h4>PERSONALIZED <span class="about-header-span">TRAINING</span></h4>
-          <p>
-            Our trainers work closely with you to design customized workout
-            plans that cater to your specific goals and fitness level.
-          </p>
-        </div>
-        <div class="about__card">
-          <h4>AFFORDABLE <span class="about-header-span">MEMBERSHIP</span></h4>
-          <p>
-            We offer a variety of membership options to suit your needs, making
-            it easier for you to stay committed to your fitness journey.
-          </p>
-        </div>
-        <div class="about__card">
-          <h4>SUPPORTIVE <span class="about-header-span">COMMUNITY</span></h4>
-          <p>
-            Join a vibrant community of fitness enthusiasts who motivate and
-            uplift each other, fostering a positive environment for everyone.
-          </p>
-        </div>
-      </div>
-    </section> -->
-
-
     <section class="section__container program__container" id="program">
-        <div class="program__header">
-            <h2 class="section__header">OUR <span class="about-header-span">PROGRAM</span></h2>
+      <div class="program__header">
+        <h2 class="section__header">
+          OUR <span class="about-header-span">PROGRAM</span>
+        </h2>
+      </div>
+      <div class="program__grid">
+        <!-- Strength Training -->
+        <div class="program__card">
+          <span><i class="ri-boxing-fill"></i></span>
+          <h4>Strength Training</h4>
+          <p>Build muscle with free weights and resistance machines.</p>
+          <a href="#">Enroll Today <i class="ri-arrow-right-line"></i></a>
         </div>
-        <div class="program__grid">
-            <div class="program__card">
-                <span><i class="ri-boxing-fill"></i></span>
-                <h4>Power Development</h4>
-                <p>
-                    Harness the power within as we explore strength through dynamic and focused training.
-                </p>
-                <a href="#">Enroll Today <i class="ri-arrow-right-line"></i></a>
-            </div>
-            <div class="program__card">
-                <span><i class="ri-heart-pulse-fill"></i></span>
-                <h4>Holistic Fitness</h4>
-                <p>
-                    A diverse range of activities aimed at enhancing your health, endurance, and overall vitality.
-                </p>
-                <a href="#">Enroll Today <i class="ri-arrow-right-line"></i></a>
-            </div>
-            <div class="program__card">
-                <span><i class="ri-run-line"></i></span>
-                <h4>Body Transformation</h4>
-                <p>
-                    Achieve your ideal physique with guided routines and expert support tailored for you.
-                </p>
-                <a href="#">Enroll Today <i class="ri-arrow-right-line"></i></a>
-            </div>
-            <div class="program__card">
-                <span><i class="ri-shopping-basket-fill"></i></span>
-                <h4>Muscle Building</h4>
-                <p>
-                    Our specialized program provides effective strategies for sustainable muscle growth.
-                </p>
-                <a href="#">Enroll Today <i class="ri-arrow-right-line"></i></a>
-            </div>
+        <!-- Cardio & Endurance -->
+        <div class="program__card">
+          <span><i class="ri-heart-pulse-fill"></i></span>
+          <h4>Cardio & Endurance</h4>
+          <p>Boost stamina with running, cycling, and rowing.</p>
+          <a href="#">Enroll Today <i class="ri-arrow-right-line"></i></a>
         </div>
+        <!-- Group Fitness Classes -->
+        <div class="program__card">
+          <span><i class="ri-group-fill"></i></span>
+          <h4>Fitness Classes</h4>
+          <p>Join fun, high-energy classes for all fitness levels..</p>
+          <a href="#">Enroll Today <i class="ri-arrow-right-line"></i></a>
+        </div>
+        <!-- Functional Fitness -->
+        <div class="program__card">
+          <span><i class="ri-run-fill"></i></span>
+          <h4>Functional Training</h4>
+          <p>Improve daily movement with functional exercises.</p>
+          <a href="#">Enroll Today <i class="ri-arrow-right-line"></i></a>
+        </div>
+      </div>
     </section>
-    
-      
+
     <!--End Program-->
 
     <!--Sessions-->
@@ -256,7 +217,7 @@
     <!--End Trainer-->
 
     <!--Membership-->
-    <section class="membership">
+    <section class="membership" id="membership">
       <div class="section__container membership__container">
         <h2 class="section__header">MEMBERSHIP PLANS</h2>
         <div class="membership__grid">
@@ -487,6 +448,10 @@
         </div>
       </div>
     </footer>
+    <div class="footer__bar">
+      <p>&copy; 2024 <a href="https://github.com/https-ty" target="_blank" class="text-white">Tyler.dev</a>. All rights reserved.</p>
+    </div>
+    
     <!--End Footer-->
   </body>
   <script src="js/main.js"></script>

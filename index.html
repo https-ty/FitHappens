@@ -1,11 +1,493 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Fav Icon-->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/logo/fh_favicon._black.png"
+    />
+    <!--Fav Icon-->
+
+    <!-- Font awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- Font awesome CDN -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
     <title>FitHappens | Gym</title>
-</head>
-<body>
+
+    <!--CSS links-->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/media-query.css" />
+    <!--CSS links-->
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#"
+              ><img src="assets/logo/fit-happens-logo.png" alt="logo"
+            /></a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Program</a></li>
+          <li><a href="#trainer">Trainer</a></li>
+          <li><a href="#client">Client</a></li>
+          <li><button class="btn btn__primary">Contact</button></li>
+        </ul>
+      </div>
+    </nav>
+    <!--End Navbar-->
+
+    <!--Header-->
+    <header class="header" id="header">
+      <div class="section__container header__container">
+        <div class="header__content">
+          <h1>STRONGER EVERY DAY</h1>
+          <h2>NO EXCUSES, JUST RESULTS</h2>
+          <p>
+            Your only competition is the person you were yesterday. Let's train
+            to win.
+          </p>
+          <div class="header__btn">
+            <button class="btn btn__primary">Join Now!</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--End Header-->
+
+    <!--Program-->
+    <!-- <section class="section__container about__container" id="about">
+      <div class="about__header">
+        <h2 class="section__header">
+          ABOUT <span class="about-header-span">US</span>
+        </h2>
+        <p class="section__description">
+          At FitHappens, we strive to create a welcoming community that inspires
+          individuals to embark on their fitness journey and embrace a healthier
+          lifestyle.
+        </p>
+      </div>
+      <div class="about__grid">
+        <div class="about__card">
+          <h4>PERSONALIZED <span class="about-header-span">TRAINING</span></h4>
+          <p>
+            Our trainers work closely with you to design customized workout
+            plans that cater to your specific goals and fitness level.
+          </p>
+        </div>
+        <div class="about__card">
+          <h4>AFFORDABLE <span class="about-header-span">MEMBERSHIP</span></h4>
+          <p>
+            We offer a variety of membership options to suit your needs, making
+            it easier for you to stay committed to your fitness journey.
+          </p>
+        </div>
+        <div class="about__card">
+          <h4>SUPPORTIVE <span class="about-header-span">COMMUNITY</span></h4>
+          <p>
+            Join a vibrant community of fitness enthusiasts who motivate and
+            uplift each other, fostering a positive environment for everyone.
+          </p>
+        </div>
+      </div>
+    </section> -->
+
+
+    <section class="section__container program__container" id="program">
+        <div class="program__header">
+            <h2 class="section__header">OUR <span class="about-header-span">PROGRAM</span></h2>
+        </div>
+        <div class="program__grid">
+            <div class="program__card">
+                <span><i class="ri-boxing-fill"></i></span>
+                <h4>Power Development</h4>
+                <p>
+                    Harness the power within as we explore strength through dynamic and focused training.
+                </p>
+                <a href="#">Enroll Today <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="program__card">
+                <span><i class="ri-heart-pulse-fill"></i></span>
+                <h4>Holistic Fitness</h4>
+                <p>
+                    A diverse range of activities aimed at enhancing your health, endurance, and overall vitality.
+                </p>
+                <a href="#">Enroll Today <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="program__card">
+                <span><i class="ri-run-line"></i></span>
+                <h4>Body Transformation</h4>
+                <p>
+                    Achieve your ideal physique with guided routines and expert support tailored for you.
+                </p>
+                <a href="#">Enroll Today <i class="ri-arrow-right-line"></i></a>
+            </div>
+            <div class="program__card">
+                <span><i class="ri-shopping-basket-fill"></i></span>
+                <h4>Muscle Building</h4>
+                <p>
+                    Our specialized program provides effective strategies for sustainable muscle growth.
+                </p>
+                <a href="#">Enroll Today <i class="ri-arrow-right-line"></i></a>
+            </div>
+        </div>
+    </section>
     
-</body>
+      
+    <!--End Program-->
+
+    <!--Sessions-->
+    <section class="session">
+      <div class="session__card">
+        <h4>STRENGTH <span class="session-card-span">TRAINING</span></h4>
+        <p>
+          Build muscle and enhance your strength with our focused strength
+          training programs, designed for all fitness levels at FitHappens.
+        </p>
+        <button class="btn btn__secondary">
+          READ MORE <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+      <div class="session__card">
+        <h4>HIIT <span class="session-card-span">WORKOUTS</span></h4>
+        <p>
+          Burn fat and improve endurance with our high-intensity interval
+          training sessions that deliver maximum results in minimal time.
+        </p>
+        <button class="btn btn__secondary">
+          READ MORE <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+      <div class="session__card">
+        <h4>PERSONAL <span class="session-card-span">TRAINING</span></h4>
+        <p>
+          Get tailored workouts and expert guidance with our personal training
+          sessions, ensuring you achieve your fitness goals effectively.
+        </p>
+        <button class="btn btn__secondary">
+          READ MORE <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+      <div class="session__card">
+        <h4>BODY <span class="session-card-span">BUILDING</span></h4>
+        <p>
+          Transform your physique and maximize muscle growth with our dedicated
+          bodybuilding programs, designed for serious lifters at any level.
+        </p>
+        <button class="btn btn__secondary">
+          READ MORE <i class="fa-solid fa-arrow-right"></i>
+        </button>
+      </div>
+    </section>
+    <!--End Sessions-->
+
+    <!--Trainer-->
+    <section class="section__container trainer__container" id="trainer">
+      <h2 class="section__header">
+        MEET OUR <span class="about-header-span">TRAINERS</span>
+      </h2>
+      <p class="section__description">
+        Get to know our experienced trainers who are here to guide you through
+        your fitness journey.
+      </p>
+      <div class="trainer__grid">
+        <div class="trainer__card">
+          <img src="assets/images/trainer_1.jpg" alt="trainer" />
+          <div class="trainer__content">
+            <h4>OLIVER BROWN</h4>
+            <p>Strength Coach</p>
+          </div>
+        </div>
+
+        <div class="trainer__card">
+          <img src="assets/images/trainer_2.jpg" alt="trainer" />
+          <div class="trainer__content">
+            <h4>LILA JOHNSON</h4>
+            <p>Cardio Coach</p>
+          </div>
+        </div>
+
+        <div class="trainer__card">
+          <img src="assets/images/trainer_3.jpg" alt="trainer" />
+          <div class="trainer__content">
+            <h4>JACK TURNER</h4>
+            <p>Boxing Coach</p>
+          </div>
+        </div>
+
+        <div class="trainer__card">
+          <img src="assets/images/trainer_4.jpg" alt="trainer" />
+          <div class="trainer__content">
+            <h4>EMILY CARTER</h4>
+            <p>Fitness Coach</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Trainer-->
+
+    <!--End Trainer-->
+
+    <!--Membership-->
+    <section class="membership">
+      <div class="section__container membership__container">
+        <h2 class="section__header">MEMBERSHIP PLANS</h2>
+        <div class="membership__grid">
+          <div class="membership__card">
+            <h4>BASIC</h4>
+            <ul>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                Access to gym facilities and equipment.
+              </li>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                Free introductory fitness assessment.
+              </li>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                Access to group classes.
+              </li>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                Use of locker rooms and showers.
+              </li>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                Monthly wellness workshops.
+              </li>
+            </ul>
+            <h3><sup>₱</sup>1,500<span>/month</span></h3>
+            <button class="btn btn__primary">JOIN NOW</button>
+          </div>
+
+          <div class="membership__card">
+            <h4>ADVANCED</h4>
+            <ul>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                All Basic benefits included.
+              </li>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                Access to specialized classes.
+              </li>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                Priority booking for personal training sessions.
+              </li>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                Member-only nutrition workshops.
+              </li>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                Discounts on fitness merchandise.
+              </li>
+            </ul>
+            <h3><sup>₱</sup>2,500<span>/month</span></h3>
+            <button class="btn btn__primary">JOIN NOW</button>
+          </div>
+
+          <div class="membership__card">
+            <h4>PREMIUM</h4>
+            <ul>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                All Advanced benefits included.
+              </li>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                Unlimited access to premium classes and workshops.
+              </li>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                Dedicated personal trainer for the first month.
+              </li>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                Complimentary spa services.
+              </li>
+              <li>
+                <span><i class="ri-check-line"></i></span>
+                Early access to new programs and events.
+              </li>
+            </ul>
+            <h3><sup>₱</sup>3,500<span>/month</span></h3>
+            <button class="btn btn__primary">JOIN NOW</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Membership-->
+
+    <!--Testimonials-->
+    <section class="section__container client__container" id="client">
+      <h2 class="section__header">
+        CLIENT <span class="about-header-span">TESTIMONIALS</span>
+      </h2>
+      <p class="section__description">
+        Hear what our clients have to say about their experiences with us!
+      </p>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/images/client-1.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+              </div>
+              <p>
+                I love the variety of classes offered! The trainers really care
+                about your progress.
+              </p>
+              <h4>Sarah Johnson</h4>
+              <h5>Graphic Designer</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/images/client-2.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>
+                A great place to unwind and focus on health! Highly recommend
+                the personal training sessions.
+              </p>
+              <h4>Michael Lee</h4>
+              <h5>Software Engineer</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/images/client-3.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-half-fill"></i></span>
+                <span><i class="ri-star-line"></i></span>
+              </div>
+              <p>
+                The community here is fantastic! I always feel motivated to push
+                myself further.
+              </p>
+              <h4>Alice Brown</h4>
+              <h5>Marketing Specialist</h5>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <img src="assets/images/client-4.jpg" alt="client" />
+              <div class="client__ratings">
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+                <span><i class="ri-star-fill"></i></span>
+              </div>
+              <p>
+                Best decision I've made for my health! The support and guidance
+                are unmatched.
+              </p>
+              <h4>David Smith</h4>
+              <h5>Entrepreneur</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        loop: true,
+        slidesPerView: "auto",
+        spaceBetween: 20,
+      });
+    </script>
+
+    <!--End Testimonials-->
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>About FitHappens</h4>
+            <ul>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Meet Our Trainers</a></li>
+              <li><a href="#">Membership Plans</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Get Support</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Cancellation Policy</a></li>
+              <li><a href="#">Customer Service</a></li>
+              <li><a href="#">Feedback</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Join Us Online</h4>
+            <ul>
+              <li><a href="#">Membership Sign-Up</a></li>
+              <li><a href="#">Class Schedule</a></li>
+              <li><a href="#">Shop Merchandise</a></li>
+              <li><a href="#">Fitness Programs</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Connect with Us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--End Footer-->
+  </body>
+  <script src="js/main.js"></script>
 </html>

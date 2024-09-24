@@ -438,22 +438,26 @@ nav {
 
 .session__card:nth-child(1) {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/assets/images/session_1.jpg");
+    /* url("/assets/images/session_1.jpg"); */
+    url("https://https-ty.github.io/FitHappens/assets/images/session_1.jpg");
 }
 
 .session__card:nth-child(2) {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/assets/images/session_2.jpg");
+    /* url("/assets/images/session_2.jpg"); */
+    url("https://https-ty.github.io/FitHappens/assets/images/session_2.jpg");
 }
 
 .session__card:nth-child(3) {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/assets/images/session_3.jpg");
+    /* url("/assets/images/session_3.jpg"); */
+    url("https://https-ty.github.io/FitHappens/assets/images/session_3.jpg");
 }
 
 .session__card:nth-child(4) {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/assets/images/session_4.jpg");
+    /* url("/assets/images/session_4.jpg"); */
+    url("https://https-ty.github.io/FitHappens/assets/images/session_4.jpg");
 }
 
 .session__card h4 {

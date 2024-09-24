@@ -181,7 +181,7 @@ nav {
       rgba(0, 0, 0, 0.8)
     ),
     /* url("/assets/images/header.jpg"); */
-    url("/FitHappens/assets/images/header.jpg");
+    url("https://https-ty.github.io/FitHappens/assets/images/header.jpg")
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

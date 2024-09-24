@@ -220,71 +220,6 @@ nav {
 /*End Header*/
 
 /*Program*/
-/* .about__header {
-    text-align: center;
-    display: grid;
-    gap: 1rem;
-  }
-  
-  .about__header .section__header {
-    font-size: 3rem;
-  }
-
-  .about-header-span{
-    color: var(--primary-color);
-  }
-  
-  .about__header .section__description {
-    max-width: 350px;
-    margin-inline: auto;
-    line-height: 2rem;
-  }
-  
-  .about__grid {
-    margin-top: 4rem;
-    display: grid;
-    gap: 4rem;
-    line-height: 2rem;
-  }
-  
-  .about__card h4 {
-    position: relative;
-    isolation: isolate;
-    margin-bottom: 1rem;
-    padding-top: 4rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-    font-family: var(--header-font);
-    color: var(--text-dark);
-  }
-  
-  .about__card h4::before {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    font-size: 6rem;
-    line-height: 6rem;
-    color: var(--text-dark);
-    opacity: 0.2;
-    z-index: -1;
-  }
-  
-  .about__card:nth-child(1) h4::before {
-    content: "01";
-  }
-  
-  .about__card:nth-child(2) h4::before {
-    content: "02";
-  }
-  
-  .about__card:nth-child(3) h4::before {
-    content: "03";
-  }
-  
-  .about__card p {
-    color: var(--text-light);
-  } */
-
 .program__container {
   max-width: var(--max-width);
   margin: auto;
@@ -343,8 +278,6 @@ nav {
 .program__card:hover {
   border-color: var(--white);
   transform: translateY(-10px);
-  /* box-shadow: rgba(50, 50, 93, 0.5) 0px 20px 40px -10px,
-    rgba(0, 0, 0, 0.3) 0px 12px 24px -8px; */
 }
 
 .program__card:hover:before {
@@ -360,9 +293,6 @@ nav {
 }
 
 .program__card span {
-  /* display: inline-flex; 
-  justify-content: center; 
-  align-items: center; */
   display: inline-block;
   margin-bottom: 1rem;
   font-size: 2rem;
@@ -371,7 +301,6 @@ nav {
   padding: 0.5rem;
   border-radius: 5px;
   width: fit-content;
-  /* max-width: 60px; */
 }
 
 .program__card h4 {
@@ -432,7 +361,6 @@ nav {
 }
 
 .session-card-span {
-  /* color: var(--text-light); */
   color: var(--primary-color);
 }
 
@@ -554,7 +482,7 @@ nav {
 /*Membership*/
 .membership {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("/assets/images/membership_.jpg");
+    url("https://https-ty.github.io/FitHappens/assets/images/membership_.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
